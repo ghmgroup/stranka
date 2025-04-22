@@ -15,7 +15,7 @@ export default function Contact() {
 
                     <div className="flex items-start gap-4">
                         <Mail className="shrink-0" />
-                        <div>ghmgroup.po@gmail.com</div>
+                        <div>ghmgroup@ghmgroup.sk</div>
                     </div>
 
                     <address className="not-italic">
