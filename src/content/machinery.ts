@@ -17,7 +17,7 @@ export const machines = [
     {
         name: 'Sústruh 18 Classic',
         specs: [],
-        imageUrl: '/machines/sustruh_18_classic.jpg',
+        imageUrl: '/machines/sustruh.jpg',
     },
     {
         name: 'Frézka Classic',
@@ -34,19 +34,24 @@ export const machines = [
         specs: [],
         imageUrl: '/machines/koordinatna_vrtacka_sipka_2er50a.jpg',
     },
-    {
-        name: 'MIG Zváranie Fronius 500',
-        specs: [],
-        imageUrl: '/machines/mig_zvaranie_fronius_500.jpg',
-    },
-    {
-        name: 'MIG Zváranie Fronius 400 Pulse',
-        specs: [],
-        imageUrl: '/machines/mig_zvaranie_fronius_400_pulse.jpg',
-    },
+    //{
+    //    name: 'MIG Zváranie Fronius 500',
+    //    specs: [],
+    //    imageUrl: '/machines/mig_zvaranie_fronius_500.jpg',
+    //},
+    //{
+    //    name: 'MIG Zváranie Fronius 400 Pulse',
+    //    specs: [],
+    //    imageUrl: '/machines/mig_zvaranie_fronius_400_pulse.jpg',
+    //},
     {
         name: 'Zváracie Stoly',
-        specs: ['1800×4000', '1800×7000'],
+        specs: [
+            '1800×4000',
+            '1800×7000',
+            'MIG Zváranie Fronius 500',
+            'MIG Zváranie Fronius 400 Pulse',
+        ],
         imageUrl: '/machines/zvaracie_stoly.jpg',
     },
     {
