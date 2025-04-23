@@ -18,7 +18,7 @@ export default function Navbar() {
         <nav className="w-full border-b">
             <div className="mx-auto max-w-6xl flex items-center gap-8 px-4 py-3">
                 <Link href="/">
-                    <Image src="/favicon.png" alt="ghm logo" width={40} height={40} priority />
+                    <Image src="/favicon.png" alt="ghm logo" width={40} height={40} priority unoptimized />
                 </Link>
 
                 <ul className="flex gap-6 text-sm font-medium">
