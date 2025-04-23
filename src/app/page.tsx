@@ -17,7 +17,7 @@ export default function Home() {
                     alt="Hero Image"
                     layout="fill"
                     objectFit="cover"
-                    className=""
+                    unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute inset-0 flex flex-col justify-end items-center text-white space-y-4 pb-24">
@@ -46,6 +46,7 @@ export default function Home() {
                         width={300}
                         height={200}
                         className="object-cover rounded-lg"
+                        unoptimized
                     />
                 ))}
             </div>

@@ -17,6 +17,7 @@ export default function Machinery() {
                                 width={300}
                                 height={200}
                                 className="object-cover"
+                                unoptimized
                             />
                             <CardTitle>{m.name}</CardTitle>
                         </CardHeader>
